@@ -70,3 +70,89 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero{
+    margin-top: 65px;
+    padding: 75px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1{
+    font-size: 50px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: #ffafcc;
+}
+
+.hero-info p{
+    font-size: 14px;
+    width: 70%;
+    color: gray;
+}
+
+.hero-info p > span{
+    font-weight: 800;
+}
+
+.hero-info a{
+    flex-direction: row;
+    background-color: #a2d2ff;
+    font-family: "poppings";
+    color: white;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.imagen-crepa{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content:center;
+    
+}
+
+
+#info{
+    margin-top: 65px;
+    padding: 75px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.info-description p{
+    color: gray;
+    text-align: center;
+}
